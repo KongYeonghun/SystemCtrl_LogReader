@@ -4,37 +4,37 @@
 
 int main(void)
 {
-	system("title SystemCtrl_LogReader")                                            ;
-	cout << "SystemCtrl_LogReader Start.." << endl                                            ;
+	system("title SystemCtrl_LogReader")                                   ;
+	cout << "SystemCtrl_LogReader Start.." << endl                                   ;
 
-	Header							mHeader                                            ;
-	CurrentTime						mCurrentTime                                            ;
-	ROSStatusInfo					mROSStatusInfo                                            ;
-	USVModeCommand					mUSVModeCommand                                            ;
-	MissionRecordInfo				mMissionRecordInfo                                            ;
-	PowerControl					mPowerControl                                            ;
-	EOCameraControlCommand			mEOCameraControlCommand                                            ;
-	PlatformControlCommand			mPlatformControlCommand                                            ;
-	USVStatusInfo					mUSVStatusInfo                                            ;
-	NavigationStatusInfo			mNavigationStatusInfo                                            ;
-	NavigationInfo					mNavigationInfo                                            ;
-	AutoNaviStatusInfo				mAutoNaviStatusInfo                                            ;
-	RadarTargetInfo					mRadarTargetInfo                                            ;
-	LidarTargetInfo					mLidarTargetInfo                                            ;
-	FlexTargetInfo					mFlexTargetInfo                                            ;
-	PlatformControlState			mPlatformControlState                                            ;
-	PlatformStatusInfo				mPlatformStatusInfo                                            ;
-	PowerControlResult				mPowerControlResult                                            ;
-	AcousticCommInfo				mAcousticCommInfo                                            ;
-	USVModeCommand					Emergency_USVModeCommand                                            ;
-	MissionRecordInfo				Emergency_MissionRecordInfo                                            ;
-	IRCameraControlCommand			mIRCameraControlCommand                                            ;
-	SaeronEOTrackingCommand			mSaeronEOTrackingCommand                                            ;
-	EOCameraControlRes				mEOCameraControlRes                                            ;
-	IRCameraControlRes				mIRCameraControlRes                                            ;
-	SaeronEOTrackingCommandRes 		mSaeronEOTrackingCommandRes                                            ;
-	USVStatusInfoConnectionFlag		mUSVStatusInfoConnectionFlag                                            ;
-	MissionRecordInfoRes			mMissionRecordInfoRes                                            ;
+	Header							mHeader                                   ;
+	CurrentTime						mCurrentTime                                   ;
+	ROSStatusInfo					mROSStatusInfo                                   ;
+	USVModeCommand					mUSVModeCommand                                   ;
+	MissionRecordInfo				mMissionRecordInfo                                   ;
+	PowerControl					mPowerControl                                   ;
+	EOCameraControlCommand			mEOCameraControlCommand                                   ;
+	PlatformControlCommand			mPlatformControlCommand                                   ;
+	USVStatusInfo					mUSVStatusInfo                                   ;
+	NavigationStatusInfo			mNavigationStatusInfo                                   ;
+	NavigationInfo					mNavigationInfo                                   ;
+	AutoNaviStatusInfo				mAutoNaviStatusInfo                                   ;
+	RadarTargetInfo					mRadarTargetInfo                                   ;
+	LidarTargetInfo					mLidarTargetInfo                                   ;
+	FlexTargetInfo					mFlexTargetInfo                                   ;
+	PlatformControlState			mPlatformControlState                                   ;
+	PlatformStatusInfo				mPlatformStatusInfo                                   ;
+	PowerControlResult				mPowerControlResult                                   ;
+	AcousticCommInfo				mAcousticCommInfo                                   ;
+	USVModeCommand					Emergency_USVModeCommand                                   ;
+	MissionRecordInfo				Emergency_MissionRecordInfo                                   ;
+	IRCameraControlCommand			mIRCameraControlCommand                                   ;
+	SaeronEOTrackingCommand			mSaeronEOTrackingCommand                                   ;
+	EOCameraControlRes				mEOCameraControlRes                                   ;
+	IRCameraControlRes				mIRCameraControlRes                                   ;
+	SaeronEOTrackingCommandRes 		mSaeronEOTrackingCommandRes                                   ;
+	USVStatusInfoConnectionFlag		mUSVStatusInfoConnectionFlag                                   ;
+	MissionRecordInfoRes			mMissionRecordInfoRes                                   ;
 	EOTargetInfo					mEOTargetInfo                                            ;
 
 	memset(&mHeader,						0, sizeof(mHeader))                                            ;
